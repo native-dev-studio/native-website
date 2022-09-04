@@ -4,7 +4,10 @@
 
 @layer base {
   body {
-    @apply bg-gray-900;
+    @apply bg-black;
     @apply text-white;
+  }
+  a {
+    @apply text-red-900;
   }
 }
