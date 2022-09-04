@@ -17,7 +17,7 @@ const IndexPage = () => {
             </p>
           </section>
           <section className='col-span-10'>
-            <StaticImage 
+            <StaticImage
               src='../images/df-case-study-image.png'
               alt='A futuristic look into tennis'
             />
@@ -33,10 +33,12 @@ const IndexPage = () => {
               </p>
             </div>
           </section>
-          <footer>
-            <StaticImage src='../images/icon.png' alt='A logo' />
-            Interested in learning more about our approach to custom software? Reach out to workwith@native.dev.
-            <ul>
+          <footer className='grid grid-cols-10 gap-x-9 col-span-10'>
+            <StaticImage className='col-span-1' src='../images/icon.png' alt='A logo' />
+            <p className='col-span-10'>
+              Interested in learning more about our approach to custom software? Reach out to workwith@native.dev.
+            </p>
+            <ul className='col-start-1'>
               <li>
                 Contact
               </li>
@@ -50,7 +52,7 @@ const IndexPage = () => {
                 press@native.dev
               </li>
             </ul>
-            <ul>
+            <ul className='col-start-4' >
               <li>
                 Learn
               </li>
@@ -61,7 +63,10 @@ const IndexPage = () => {
                 </span>
               </li>
             </ul>
-            <ul>
+            <ul className='col-start-7'>
+              <li>
+                Connect
+              </li>
               <li>
                 LinkedIn
               </li>
@@ -70,7 +75,7 @@ const IndexPage = () => {
               </li>
             </ul>
             <div className='line-separator' />
-            <p>
+            <p className='col-span-10'>
               Copyright 2022. All Rights Reserved.
             </p>
           </footer>
