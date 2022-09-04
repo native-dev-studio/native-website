@@ -5,8 +5,11 @@ const IndexPage = () => {
   return (
     <main>
       <h1 className='text-3xl font-bold underline'>
-        Hello world!
+        Expert partners in Web3 product, engineering & strategy
       </h1>
+      <p>
+        Native is an independent studio building mission-critical products for Web3 startups. We help define your technical vision and form the right team and cross-functional leadership to execute it.
+      </p>
     </main>
   )
 }
