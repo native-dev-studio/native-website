@@ -1,3 +1,5 @@
+@import 'typography.css';
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,6 +8,7 @@
   body {
     @apply bg-black;
     @apply text-white;
+    font-family: "PPPangramSans";
   }
   a {
     @apply text-red-900;
