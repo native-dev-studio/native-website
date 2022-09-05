@@ -6,8 +6,9 @@
 
 @layer base {
   body {
-    @apply bg-gray;
+    @apply bg-gray-dark;
     @apply text-white;
+    @apply text-sm;
     font-family: "PPPangramSans";
   }
   a {
@@ -16,5 +17,13 @@
 
   .banner {
     @apply bg-white w-screen h-4;
+  }
+
+  .grid-container {
+    @apply grid grid-cols-12 gap-x-9 mx-16;
+  }
+
+  .divider {
+    @apply h-0.5 bg-white mt-10 mb-5;
   }
 }
