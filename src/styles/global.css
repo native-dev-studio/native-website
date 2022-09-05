@@ -6,7 +6,7 @@
 
 @layer base {
   body {
-    @apply bg-black;
+    @apply bg-gray;
     @apply text-white;
     font-family: "PPPangramSans";
   }
