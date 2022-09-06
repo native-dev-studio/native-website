@@ -17,7 +17,7 @@ const IndexPage = () => {
       <div className='lg:grid-container mx-4'>
         <div className='lg:grid lg:grid-cols-10 lg:gap-x-9 lg:col-start-2 lg:col-span-10'>
           <section className='lg:col-start-4 lg:col-span-7 lg:my-10'>
-            <h1 className='lg:text-lg text-md font-bold leading-tight pb-8'>
+            <h1 className='md:text-lg text-md font-bold leading-tight pb-8'>
               Expert partners in Web3 product, engineering & strategy
             </h1>
             <p>
@@ -65,10 +65,12 @@ const IndexPage = () => {
           />
           <div className='
             lg:grid-container
+            md:grid md:grid-cols-8 md:mx-4 md:gap-y-5
             grid grid-cols-4 mx-4 gap-y-5
             '>
             <p className='
               lg:my-10 lg:col-start-2 lg:col-span-10
+              md:col-span-8
               col-span-4 my-2
               '>
               Interested in learning more about our approach to custom software? Reach out to&nbsp;
@@ -101,6 +103,7 @@ const IndexPage = () => {
             </ul>
             <ul className='
               lg:col-start-5 lg:col-span-3
+              md:col-start-4 md:col-span-3
               col-span-3
               '>
               <li className='font-bold lg:text-md text-sm'>
@@ -117,6 +120,7 @@ const IndexPage = () => {
             </ul>
             <ul className='
               lg:col-start-8
+              md:col-start-7 md:col-span-2
               col-span-4
               '>
               <li className='font-bold lg:text-md text-sm'>
@@ -136,6 +140,7 @@ const IndexPage = () => {
             <div className='
               divider
               lg:col-start-2 lg:col-span-10
+              md:col-span-8
               col-span-4 -mb-4
             '/>
             <p className='
