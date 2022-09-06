@@ -24,7 +24,7 @@ const IndexPage = () => {
             </p>
           </section>
           <section className='
-            lg:col-span-10
+            lg:col-span-10 lg:mb-32
             sm:mb-14
           '>
             <div className='bg-black my-5'>
