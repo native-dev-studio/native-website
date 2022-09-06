@@ -1,5 +1,5 @@
 import * as React from "react"
-import { Link } from "gatsby"
+import { Link, graphql } from "gatsby"
 import type { HeadFC } from "gatsby"
 import { StaticImage } from 'gatsby-plugin-image'
 
@@ -12,6 +12,7 @@ const IndexPage = () => {
         alt='A logo' 
         height={50}
         className='lg:ml-44 ml-4 mb-12'
+        placeholder='tracedSVG'
       />
       <div className='lg:grid-container mx-4'>
         <div className='lg:grid lg:grid-cols-10 lg:gap-x-9 lg:col-start-2 lg:col-span-10'>
@@ -56,6 +57,7 @@ const IndexPage = () => {
             src='../images/native-logo.svg'
             alt='A logo'
             width={50}
+            placeholder='tracedSVG'
             className='
             lg:ml-44 ml-4
             mb-5
