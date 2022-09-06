@@ -6,7 +6,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const IndexPage = () => {
   return (
     <>
-      <div className='banner mb-44' />
+      <div className='banner mb-10' />
       <StaticImage 
         src='../images/native-logo.svg'
         alt='A logo' 
