@@ -37,7 +37,7 @@ const IndexPage = () => {
                 </h2>
                 <p className='col-start-4 col-span-6'>
                   Dream Fight is bringing back the magic of sports and gaming.&nbsp; 
-                  <Link to='/case'>
+                  <Link to='/case' className='hover:text-yellow'>
                     Read more
                   </Link>.
                 </p>
@@ -56,7 +56,7 @@ const IndexPage = () => {
         <div className='grid-container'>
           <p className='my-10 col-start-2 col-span-10'>
             Interested in learning more about our approach to custom software? Reach out to&nbsp;
-            <a href='mailto:workwith@native.dev'>
+            <a href='mailto:workwith@native.dev' className='hover:text-yellow'>
               workwith@native.dev
             </a>.
           </p>
