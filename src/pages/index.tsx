@@ -63,7 +63,7 @@ const IndexPage = () => {
           />
           <div className='
             lg:grid-container
-            grid grid-cols-4 mx-4 gap-y-8
+            grid grid-cols-4 mx-4 gap-y-5
             '>
             <p className='
               lg:my-10 lg:col-start-2 lg:col-span-10
@@ -78,34 +78,34 @@ const IndexPage = () => {
               lg:col-start-2
               col-span-2
               '>
-              <li className='font-bold text-md'>
+              <li className='font-bold lg:text-md text-sm'>
                 Contact
               </li>
               <li>
-                <a href='mailto:workwith@native.dev' className='text-white hover:text-red'>
+                <a href='mailto:workwith@native.dev' className='text-white hover:text-red lg:text-sm text-xs'>
                   workwith@native.dev
                 </a>
               </li>
               <li>
-                <a href='mailto:careers@native.dev' className='text-white hover:text-red'>
+                <a href='mailto:careers@native.dev' className='text-white hover:text-red lg:text-sm text-xs'>
                   careers@native.dev
                 </a>
               </li>
               <li>
-                <a href='mailto:press@native.dev' className='text-white hover:text-red'>
+                <a href='mailto:press@native.dev' className='text-white hover:text-red lg:text-sm text-xs'>
                   press@native.dev
                 </a>
               </li>
             </ul>
             <ul className='
               lg:col-start-5 lg:col-span-3
-              col-span-2
+              col-span-3
               '>
-              <li className='font-bold text-md'>
+              <li className='font-bold lg:text-md text-sm'>
                 Learn
               </li>
               <li>
-                <a href='https://pitch.com/v/website-u6wxwg' className='text-white hover:text-red'>
+                <a href='https://pitch.com/v/website-u6wxwg' className='text-white hover:text-red lg:text-sm text-xs'>
                   Native Pitch Deck
                 </a>
                 <span className='ml-2 rounded-full bg-red py-1.5 px-4 text-xs bg-blue'>
@@ -117,16 +117,16 @@ const IndexPage = () => {
               lg:col-start-8
               col-span-4
               '>
-              <li className='font-bold text-md'>
+              <li className='font-bold lg:text-md text-sm'>
                 Connect
               </li>
               <li>
-                <a href='https://www.linkedin.com/company/native-dev' className='text-white hover:text-red'>
+                <a href='https://www.linkedin.com/company/native-dev' className='text-white hover:text-red lg:text-sm text-xs'>
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href='https://github.com/native-dev-studio' className='text-white hover:text-red'>
+                <a href='https://github.com/native-dev-studio' className='text-white hover:text-red lg:text-sm text-xs'>
                   Github
                 </a>
               </li>
@@ -134,11 +134,11 @@ const IndexPage = () => {
             <div className='
               divider
               lg:col-start-2 lg:col-span-10
-              col-span-4 mb-4
-              '/>
+              col-span-4 -mb-4
+            '/>
             <p className='
               lg:col-start-2 lg:col-span-10
-              col-span-4
+              col-span-4 text-xs
               '>
               Copyright 2022. All Rights Reserved.
             </p>
