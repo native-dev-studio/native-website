@@ -13,10 +13,10 @@ const IndexPage = () => {
         height={50}
         className='lg:ml-44 ml-4 mb-12'
       />
-      <div className='lg:grid-container sm:mx-4'>
+      <div className='lg:grid-container mx-4'>
         <div className='lg:grid lg:grid-cols-10 lg:gap-x-9 lg:col-start-2 lg:col-span-10'>
           <section className='lg:col-start-4 lg:col-span-7 lg:my-10'>
-            <h1 className='lg:text-lg sm:text-md font-bold leading-tight pb-8'>
+            <h1 className='lg:text-lg text-md font-bold leading-tight pb-8'>
               Expert partners in Web3 product, engineering & strategy
             </h1>
             <p>
@@ -25,7 +25,7 @@ const IndexPage = () => {
           </section>
           <section className='
             lg:col-span-10 lg:mb-32
-            sm:mb-14
+            mb-14
           '>
             <div className='bg-black my-5'>
               <StaticImage
@@ -50,7 +50,7 @@ const IndexPage = () => {
       <footer className='
         bg-gray-dark
         lg:py-24
-        sm:py-10
+        py-10
       '>
           <StaticImage
             src='../images/native-logo.svg'
@@ -58,16 +58,16 @@ const IndexPage = () => {
             width={50}
             className='
             lg:ml-44 ml-4
-            sm:mb-5
+            mb-5
             '
           />
           <div className='
             lg:grid-container
-            sm:grid grid-cols-4 sm:mx-4 sm:gap-y-8
+            grid grid-cols-4 mx-4 gap-y-8
             '>
             <p className='
               lg:my-10 lg:col-start-2 lg:col-span-10
-              sm:col-span-4 my-2
+              col-span-4 my-2
               '>
               Interested in learning more about our approach to custom software? Reach out to&nbsp;
               <a href='mailto:workwith@native.dev' className='hover:text-yellow underline'>
@@ -76,7 +76,7 @@ const IndexPage = () => {
             </p>
             <ul className='
               lg:col-start-2
-              sm:col-span-2
+              col-span-2
               '>
               <li className='font-bold text-md'>
                 Contact
@@ -99,7 +99,7 @@ const IndexPage = () => {
             </ul>
             <ul className='
               lg:col-start-5 lg:col-span-3
-              sm:col-span-2
+              col-span-2
               '>
               <li className='font-bold text-md'>
                 Learn
@@ -115,7 +115,7 @@ const IndexPage = () => {
             </ul>
             <ul className='
               lg:col-start-8
-              sm:col-span-4
+              col-span-4
               '>
               <li className='font-bold text-md'>
                 Connect
@@ -134,11 +134,11 @@ const IndexPage = () => {
             <div className='
               divider
               lg:col-start-2 lg:col-span-10
-              sm:col-span-4 sm:-mb-4
+              col-span-4 mb-4
               '/>
             <p className='
               lg:col-start-2 lg:col-span-10
-              sm:col-span-4
+              col-span-4
               '>
               Copyright 2022. All Rights Reserved.
             </p>
