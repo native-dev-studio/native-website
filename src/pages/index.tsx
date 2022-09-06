@@ -24,7 +24,7 @@ const IndexPage = () => {
                 Native is an independent studio building mission-critical products for Web3 startups. We help define your technical vision and form the right team and cross-functional leadership to execute it.
               </p>
             </section>
-            <section className='col-span-10 mb-60'>
+            <section className='col-span-10 mb-48'>
               <div className='bg-black my-5'>
                 <StaticImage
                   src='../images/df-case-study-image.png'
@@ -55,42 +55,57 @@ const IndexPage = () => {
         />
         <div className='grid-container'>
           <p className='my-10 col-start-2 col-span-10'>
-            Interested in learning more about our approach to custom software? Reach out to workwith@native.dev.
+            Interested in learning more about our approach to custom software? Reach out to&nbsp;
+            <a href='mailto:workwith@native.dev'>
+              workwith@native.dev
+            </a>.
           </p>
           <ul className='col-start-2'>
-            <li className='font-bold'>
+            <li className='font-bold text-md'>
               Contact
             </li>
             <li>
-              workwith@native.dev
+              <a href='mailto:workwith@native.dev' className='text-white hover:text-red'>
+                workwith@native.dev
+              </a>
             </li>
             <li>
-              careers@native.dev
+              <a href='mailto:careers@native.dev' className='text-white hover:text-red'>
+                careers@native.dev
+              </a>
             </li>
             <li>
-              press@native.dev
+              <a href='mailto:press@native.dev' className='text-white hover:text-red'>
+                press@native.dev
+              </a>
             </li>
           </ul>
           <ul className='col-start-5 col-span-3' >
-            <li className='font-bold'>
+            <li className='font-bold text-md'>
               Learn
             </li>
             <li>
-              Native Pitch Deck
+              <a href='https://pitch.com/v/website-u6wxwg' className='text-white hover:text-red'>
+                Native Pitch Deck
+              </a>
               <span className='ml-2 rounded-full bg-red py-1.5 px-4 text-xs bg-blue'>
                 New!
               </span>
             </li>
           </ul>
           <ul className='col-start-8'>
-            <li>
+            <li className='font-bold text-md'>
               Connect
             </li>
             <li>
-              LinkedIn
+              <a href='https://www.linkedin.com/company/native-dev' className='text-white hover:text-red'>
+                LinkedIn
+              </a>
             </li>
             <li>
-              Github
+              <a href='https://github.com/native-dev-studio' className='text-white hover:text-red'>
+                Github
+              </a>
             </li>
           </ul>
           <div className='divider col-start-2 col-span-10' />
