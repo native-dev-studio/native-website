@@ -141,7 +141,7 @@ const IndexPage = () => {
               divider
               lg:col-start-2 lg:col-span-10
               md:col-span-8
-              col-span-4 -mb-4
+              col-span-4 -mb-2
             '/>
             <p className='
               lg:col-start-2 lg:col-span-10
