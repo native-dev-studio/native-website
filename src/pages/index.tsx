@@ -71,13 +71,13 @@ const IndexPage = () => {
               press@native.dev
             </li>
           </ul>
-          <ul className='col-start-5' >
+          <ul className='col-start-5 col-span-3' >
             <li className='font-bold'>
               Learn
             </li>
             <li>
               Native Pitch Deck
-              <span className='badge'>
+              <span className='ml-2 rounded-full bg-red py-1.5 px-4 text-xs bg-blue'>
                 New!
               </span>
             </li>
