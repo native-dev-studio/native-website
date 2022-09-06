@@ -51,15 +51,18 @@ const IndexPage = () => {
           src='../images/native-logo.svg'
           alt='A logo'
           width={50}
-          className='lg:ml-44 ml-4'
+          className='
+            lg:ml-44 ml-4
+            sm:mb-5
+          '
         />
         <div className='
           lg:grid-container
-          sm:grid grid-cols-4 sm:mx-4
+          sm:grid grid-cols-4 sm:mx-4 sm:gap-y-8
         '>
           <p className='
             lg:my-10 lg:col-start-2 lg:col-span-10
-            sm:col-span-4
+            sm:col-span-4 my-2
             '>
             Interested in learning more about our approach to custom software? Reach out to&nbsp;
             <a href='mailto:workwith@native.dev' className='hover:text-yellow underline'>
@@ -126,7 +129,7 @@ const IndexPage = () => {
           <div className='
             divider
             lg:col-start-2 lg:col-span-10
-            sm:col-span-4
+            sm:col-span-4 sm:-mb-4
           '/>
           <p className='
             lg:col-start-2 lg:col-span-10
