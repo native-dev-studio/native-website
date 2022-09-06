@@ -12,12 +12,12 @@ const IndexPage = () => {
           src='../images/native-logo.svg'
           alt='A logo' 
           height={50}
-          className='ml-44'
+          className='lg:ml-44 ml-4 mb-12'
         />
-        <div className='grid-container'>
-          <div className='grid grid-cols-10 gap-x-9 col-start-2 col-span-10'>
-            <section className='col-start-4 col-span-7 my-10'>
-              <h1 className='text-lg font-bold leading-tight pb-8'>
+        <div className='lg:grid-container sm:mx-4'>
+          <div className='lg:grid lg:grid-cols-10 lg:gap-x-9 lg:col-start-2 lg:col-span-10'>
+            <section className='lg:col-start-4 lg:col-span-7 lg:my-10'>
+              <h1 className='lg:text-lg sm:text-md font-bold leading-tight pb-8'>
                 Expert partners in Web3 product, engineering & strategy
               </h1>
               <p>
@@ -31,13 +31,13 @@ const IndexPage = () => {
                   alt='A futuristic look into tennis'
                 />
               </div>
-              <div className='grid grid-cols-10 gap-x-9'>
+              <div className='lg:grid lg:grid-cols-10 lg:gap-x-9'>
                 <h2 className='text-md col-span-2'>
                   Case Study
                 </h2>
                 <p className='col-start-4 col-span-6'>
                   Dream Fight is bringing back the magic of sports and gaming.&nbsp; 
-                  <Link to='/case' className='hover:text-yellow'>
+                  <Link to='/case' className='hover:text-yellow underline'>
                     Read more
                   </Link>.
                 </p>
@@ -51,16 +51,25 @@ const IndexPage = () => {
           src='../images/native-logo.svg'
           alt='A logo'
           width={50}
-          className='ml-44'
+          className='lg:ml-44 ml-4'
         />
-        <div className='grid-container'>
-          <p className='my-10 col-start-2 col-span-10'>
+        <div className='
+          lg:grid-container
+          sm:grid grid-cols-4 sm:mx-4
+        '>
+          <p className='
+            lg:my-10 lg:col-start-2 lg:col-span-10
+            sm:col-span-4
+            '>
             Interested in learning more about our approach to custom software? Reach out to&nbsp;
-            <a href='mailto:workwith@native.dev' className='hover:text-yellow'>
+            <a href='mailto:workwith@native.dev' className='hover:text-yellow underline'>
               workwith@native.dev
             </a>.
           </p>
-          <ul className='col-start-2'>
+          <ul className='
+            lg:col-start-2
+            sm:col-span-2
+          '>
             <li className='font-bold text-md'>
               Contact
             </li>
@@ -80,7 +89,10 @@ const IndexPage = () => {
               </a>
             </li>
           </ul>
-          <ul className='col-start-5 col-span-3' >
+          <ul className='
+            lg:col-start-5 lg:col-span-3
+            sm:col-span-2
+          '>
             <li className='font-bold text-md'>
               Learn
             </li>
@@ -93,7 +105,10 @@ const IndexPage = () => {
               </span>
             </li>
           </ul>
-          <ul className='col-start-8'>
+          <ul className='
+            lg:col-start-8
+            sm:col-span-4
+          '>
             <li className='font-bold text-md'>
               Connect
             </li>
@@ -108,8 +123,15 @@ const IndexPage = () => {
               </a>
             </li>
           </ul>
-          <div className='divider col-start-2 col-span-10' />
-          <p className='col-start-2 col-span-10'>
+          <div className='
+            divider
+            lg:col-start-2 lg:col-span-10
+            sm:col-span-4
+          '/>
+          <p className='
+            lg:col-start-2 lg:col-span-10
+            sm:col-span-4
+          '>
             Copyright 2022. All Rights Reserved.
           </p>
         </div>

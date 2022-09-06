@@ -20,7 +20,7 @@
   }
 
   .grid-container {
-    @apply grid grid-cols-12 gap-x-9 mx-16;
+    @apply grid grid-cols-12 gap-x-9 mx-16
   }
 
   .divider {
