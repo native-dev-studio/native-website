@@ -21,7 +21,7 @@ const IndexPage = () => {
               Expert partners in Web3 product, engineering & strategy
             </h1>
             <p>
-              Native is an independent studio building mission-critical products for Web3 startups. We help define your technical vision and form the right team and cross-functional leadership to execute it.
+              Native is an independent studio building mission-critical products for Web3 startups. We help define your technical vision and form the right team and leadership support to execute it.
             </p>
           </section>
           <section className='
