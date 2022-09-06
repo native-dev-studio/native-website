@@ -40,7 +40,7 @@ const IndexPage = () => {
                 </h2>
                 <p className='col-start-4 col-span-6'>
                   Dream Fight is bringing back the magic of sports and gaming.&nbsp; 
-                  <Link to='/case' className='hover:text-yellow underline'>
+                  <Link to='/featured' className='hover:text-yellow underline'>
                     Read more
                   </Link>.
                 </p>
