@@ -12,11 +12,11 @@
     font-family: "PPPangramSans";
   }
   a {
-    @apply text-red-900;
+    @apply text-red;
   }
 
   .banner {
-    @apply bg-white w-screen h-4;
+    @apply w-screen h-4 bg-gradient-to-r from-yellow to-red;
   }
 
   .grid-container {

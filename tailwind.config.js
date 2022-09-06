@@ -7,9 +7,11 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'gray': '#1B1B1B',
+        'yellow':    '#FAAC28',
+        'red':       '#BC1C0B',
+        'gray':      '#1B1B1B',
         'gray-dark': '#151418',
-        'white': '#FFFFFF'
+        'white':     '#FFFFFF',
       },
       fontSize: {
         'sm': '1.125rem',

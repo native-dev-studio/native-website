@@ -10,9 +10,8 @@ const IndexPage = () => {
       <StaticImage 
         src='../images/native-logo.svg'
         alt='A logo' 
-        className='ml-16'
-        width={50}
-        aspectRatio={1}
+        height={50}
+        className='ml-44'
       />
       <main className='grid-container'>
         <div className='grid grid-cols-10 gap-x-9 col-start-2 col-span-10'>
@@ -50,7 +49,7 @@ const IndexPage = () => {
           src='../images/native-logo.svg'
           alt='A logo'
           width={50}
-          aspectRatio={1}
+          className='ml-44'
         />
         <div className='grid-container mb-10'>
           <p className='my-10 col-start-2 col-span-10'>
