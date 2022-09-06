@@ -23,7 +23,8 @@ module.exports = {
         'xs': '0.875rem',
         'sm': '1.125rem',
         'md': '1.500rem',
-        'lg': '3.000rem',
+        'lg': '2.250rem',
+        'xl': '3.000rem',
       }
     },
   },

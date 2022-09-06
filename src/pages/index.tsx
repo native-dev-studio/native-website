@@ -17,7 +17,7 @@ const IndexPage = () => {
       <div className='lg:grid-container mx-4'>
         <div className='lg:grid lg:grid-cols-10 lg:gap-x-9 lg:col-start-2 lg:col-span-10'>
           <section className='lg:col-start-4 lg:col-span-7 lg:my-10'>
-            <h1 className='md:text-lg text-md font-bold leading-tight pb-8'>
+            <h1 className='lg:text-xl md:text-lg text-md font-bold leading-tight pb-8'>
               Expert partners in Web3 product, engineering & strategy
             </h1>
             <p>
