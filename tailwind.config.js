@@ -25,6 +25,7 @@ module.exports = {
         'md': '1.500rem',
         'lg': '2.250rem',
         'xl': '3.000rem',
+        '2xl': '6.000rem',
       }
     },
   },

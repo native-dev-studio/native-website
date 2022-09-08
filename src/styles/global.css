@@ -26,4 +26,16 @@
   .divider {
     @apply h-0.5 bg-white mt-10 mb-5;
   }
+
+  .content {
+    @apply grid-container;
+
+    h1, h2, h3 {
+      @apply col-start-2;
+    }
+
+    p {
+      @apply col-start-5 col-span-7;
+    }
+  }
 }
