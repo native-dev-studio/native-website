@@ -247,6 +247,86 @@ const FeaturedPage = () => {
           Foo bar baz
         </figcaption>
       </figure>
+      <section className='grid-container'>
+        <div className='col-start-5 col-span-8'>
+          <p>
+            The alpha release had several core technical components:
+          </p>
+          <ul>
+            <li>
+              Live stream: Video is streamed using adaptive bitrate processing so that users could play Dream Fight smoothly under dynamic network conditions with the overlay graphics scaling accordingly.
+            </li>
+            <li>
+              Network: Backend systems had the ability to scale its feed across multiple devices and compatible streaming formats.
+            </li>
+            <li>
+              Rendering: Client application had the ability to render complex animations such as high-volume particle generation and data-driven behavior over GPU on either mobile and browser.
+            </li>
+          </ul>
+          <p>
+            The Pong release was designed to be a simple, play-once demo. It had a small set of options for you to guess over each serve, a laser graphic that visualizes the ball's motion, and a counter that said how many times you were right. That's it, and that's all we needed.
+          </p>
+          <p>
+            Sharif and Native's bet was that early users would be thrilled by the novel experience, just as pong had in the past, and that investors could see the future of the industry with it.
+          </p>
+          <p>
+            Now, the team needed to figure out how to promote the early game and to investors.
+          </p>
+        </div>
+      </section>
+      <div className='grid-container divider col-start-2'/>
+      <section className='grid-container'>
+        <h3 className='font-bold text-lg col-start-2 col-span-2'>
+          03.
+        </h3>
+        <h3 className='text-lg col-start-5 col-span-8'>
+          Build and grow with early users
+        </h3>
+        <h4 className='col-start-2 col-span-2'>
+          User acquisition
+        </h4>
+        <div className='col-start-5 col-span-8'>
+          <p>
+            In 2022, Dream Fight secured a go-to-market partnership with NFT community, Collective.xyz (100K MAU), for its Pong release.
+          </p>
+          <p>
+            Despite the current market downturn, the team believed that, as a backstage pass with Kickstarter vibes, Collective's users would be attracted to Dream Fight's NFT campaign that centers around unlocking new gaming and social experiences alongside Dream Fight's roadmap towards its game-day launch.
+          </p>
+        </div>
+      </section>
+      <figure className='bg-black'>
+        <StaticImage
+          src='../images/df-case-study-image.png'
+          alt='Nadal swinging with video data alongside'
+        />
+        <figcaption>
+          Foo bar baz
+        </figcaption>
+      </figure>
+      <section className='grid-container'>
+        <div className='col-start-5 col-span-8'>
+          <p>
+            As part of this campaign, Sharif and Native did the following:
+          </p>
+          <ul>
+            <li>
+              Campaign strategy: With Collective's help, the team worked to understand their partner's target audience and designed various concepts to test with
+            </li>
+            <li>
+              Screenplay written from the perspective of a Collective user to serve both as an NFT campaign plan for GTM stakeholders and a design brief for visual artists
+            </li>
+            <li>
+              Branded NFTs hosted on Ethereum and customized to meet specific campaign requirements for the site 
+            </li>
+          </ul>
+          <p>
+            3D visual assets that contained artistic nuances foreshadowing future roadmap events
+          </p>
+          <p>
+            Dream Fight's "Get in the Game" campaign launches in October 2022 for 100 early users to play, for the first time, a live interactive game that honors and celebrates the sport for the next generation of fans and gamers.
+          </p>
+        </div>
+      </section>
     </main>
   )
 }
