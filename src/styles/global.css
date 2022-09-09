@@ -11,8 +11,13 @@
     @apply text-sm;
     font-family: "PPPangramSans";
   }
+
   a {
-    @apply text-red;
+    @apply text-red hover:text-yellow;
+  }
+
+  a.text-white {
+    @apply hover:text-red !important;
   }
 
   .banner {

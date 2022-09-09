@@ -29,7 +29,7 @@ const Footer = () => {
               col-span-4 my-2
               '>
               Interested in learning more about our approach to custom software? Reach out to&nbsp;
-              <a href='mailto:workwith@native.dev' className='hover:text-yellow underline'>
+              <a href='mailto:workwith@native.dev' className='underline'>
                 workwith@native.dev
               </a>.
             </p>
@@ -41,17 +41,17 @@ const Footer = () => {
                 Contact
               </li>
               <li>
-                <a href='mailto:workwith@native.dev' className='text-white hover:text-red lg:text-sm text-xs'>
+                <a href='mailto:workwith@native.dev' className='text-white lg:text-sm text-xs'>
                   workwith@native.dev
                 </a>
               </li>
               <li>
-                <a href='mailto:careers@native.dev' className='text-white hover:text-red lg:text-sm text-xs'>
+                <a href='mailto:careers@native.dev' className='text-white lg:text-sm text-xs'>
                   careers@native.dev
                 </a>
               </li>
               <li>
-                <a href='mailto:press@native.dev' className='text-white hover:text-red lg:text-sm text-xs'>
+                <a href='mailto:press@native.dev' className='text-white lg:text-sm text-xs'>
                   press@native.dev
                 </a>
               </li>
@@ -65,7 +65,7 @@ const Footer = () => {
                 Learn
               </li>
               <li>
-                <a href='https://pitch.com/v/website-u6wxwg' className='text-white hover:text-red lg:text-sm text-xs'>
+                <a href='https://pitch.com/v/website-u6wxwg' className='text-white lg:text-sm text-xs'>
                   Native Pitch Deck
                 </a>
                 <span className='ml-2 rounded-full bg-red py-1.5 px-4 text-xs bg-blue'>
@@ -82,12 +82,12 @@ const Footer = () => {
                 Connect
               </li>
               <li>
-                <a href='https://www.linkedin.com/company/native-dev' className='text-white hover:text-red lg:text-sm text-xs'>
+                <a href='https://www.linkedin.com/company/native-dev' className='text-white lg:text-sm text-xs'>
                   LinkedIn
                 </a>
               </li>
               <li>
-                <a href='https://github.com/native-dev-studio' className='text-white hover:text-red lg:text-sm text-xs'>
+                <a href='https://github.com/native-dev-studio' className='text-white lg:text-sm text-xs'>
                   Github
                 </a>
               </li>
