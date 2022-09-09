@@ -28,7 +28,7 @@ const FeaturedPage = () => {
           Driving the technical vision for the next generation of sports and gaming
         </h2>
         <StaticImage
-          src='../images/df-image-1.png'
+          src='../images/df-case-study-image.png'
           alt='A futuristic look into tennis'
           className='col-span-10'
         />
@@ -186,7 +186,7 @@ const FeaturedPage = () => {
       <div className='grid-container divider col-start-2'/>
       <figure className='bg-black'>
         <StaticImage
-          src='../images/df-image-2.png'
+          src='../images/df-image-1.png'
           alt='a basketball game played on OBS Studio'
         />
         <figcaption>
