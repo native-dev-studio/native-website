@@ -18,7 +18,7 @@ const FeaturedPage = () => {
         />
       </Link>
       <section className='grid-container content mb-10'>
-        <aside>
+        <aside className='sm:mb-10'>
           <h1 className='text-sm col-start-2 col-span-2'>
             Case Study
           </h1>
@@ -34,7 +34,6 @@ const FeaturedPage = () => {
         <StaticImage
           src='../images/df-case-study-image.png'
           alt='A futuristic look into tennis'
-          className='bg-black col-start-2 col-end-11'
         />
       </figure>
       <section className='grid-container content'>
@@ -198,7 +197,6 @@ const FeaturedPage = () => {
         <StaticImage
           src='../images/df-image-1.png'
           alt='a basketball game played on OBS Studio'
-          className='bg-black col-start-2 col-end-11'
         />
         <figcaption className='col-span-10 col-start-2 text-xs'>
           Foo bar baz
@@ -262,7 +260,6 @@ const FeaturedPage = () => {
         <StaticImage
           src='../images/df-image-3.png'
           alt='Nadal swinging with video data alongside'
-          className='bg-black col-start-2 col-end-11'
         />
         <figcaption className='block col-span-10 col-start-2 text-sm'>
           Foo bar baz
@@ -323,7 +320,6 @@ const FeaturedPage = () => {
         <StaticImage
           src='../images/df-image-4.png'
           alt='The landing page for Dream Fight'
-          className='bg-black col-start-2 col-end-11'
         />
         <figcaption className='col-start-2 col-span-10 block'>
           Foo bar baz

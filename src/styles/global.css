@@ -25,18 +25,22 @@
   }
 
   .grid-container {
-    @apply grid grid-cols-12 gap-x-9 mx-16
+    @apply grid grid-cols-12 gap-x-9 lg:mx-16 mx-4;
   }
 
   .grid-container.content aside {
-    @apply col-start-2 col-span-2;
+    @apply lg:col-start-2 lg:col-span-2;
   }
 
   .grid-container.content > * {
-    @apply col-start-5 col-span-7;
+    @apply lg:col-start-5 lg:col-span-7 col-span-12;
   }
 
   .grid-container.divider, .grid-container > .divider {
     @apply h-0.5 bg-white mt-10 mb-5 col-start-2;
+  }
+
+  .grid-container > .gatsby-image-wrapper {
+    @apply bg-black lg:col-start-2 lg:col-end-11 col-span-12;
   }
 }
