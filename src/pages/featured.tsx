@@ -55,16 +55,18 @@ const FeaturedPage = () => {
           </p>
       </div>
       </section>
-      <section className='grid-container'>
-        <blockquote className='col-span-12'>
-          “A lovely quotable that makes Native really communicate that their value is something clients believe in and have communicated here so to establish trust. Another’s word helps, here.”
-        </blockquote>
-        <span className='col-span-12'>
-          Sharif Elshinawi
-        </span>
-        <span className='col-span-12'>
-          CEO & Co-Founder, Dream Fight
-        </span>
+      <section className='grid-container text-center'>
+        <div className='col-start-2 col-end-11'>
+          <blockquote className='font-bold mb-3 text-md'>
+            “A lovely quotable that makes Native really communicate that their value is something clients believe in and have communicated here so to establish trust. Another’s word helps, here.”
+          </blockquote>
+          <span className='block'>
+            Sharif Elshinawi
+          </span>
+          <span className='block'>
+            CEO & Co-Founder, Dream Fight
+          </span>
+        </div>
       </section>
       <div className='grid-container divider col-start-2'/>
       <section className='grid-container'>
