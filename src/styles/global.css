@@ -23,7 +23,7 @@
     @apply grid grid-cols-12 gap-x-9 mx-16
   }
 
-  .divider {
-    @apply h-0.5 bg-white mt-10 mb-5;
+  .grid-container.divider, .grid-container > .divider {
+    @apply h-0.5 bg-white mt-10 mb-5 col-start-2;
   }
 }

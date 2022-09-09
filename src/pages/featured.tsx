@@ -70,7 +70,7 @@ const FeaturedPage = () => {
           </span>
         </div>
       </section>
-      <div className='grid-container divider col-start-2'/>
+      <div className='grid-container divider'/>
       <section className='grid-container'>
         <h3 className='font-bold text-md col-start-2 col-span-2'>
           What Native did
@@ -96,7 +96,7 @@ const FeaturedPage = () => {
           </li>
         </ul>
       </section>
-      <div className='grid-container divider col-start-2'/>
+      <div className='grid-container divider'/>
       <section className='grid-container'>
         <h3 className='font-bold text-md col-start-2'>
           Outcomes
@@ -142,7 +142,7 @@ const FeaturedPage = () => {
           </span>
         </div>
       </section>
-      <div className='grid-container divider col-start-2'/>
+      <div className='grid-container divider'/>
       <section className='grid-container'>
         <h3 className='font-bold text-md col-start-2 col-span-2'>
           3 Big Takeaways
@@ -159,7 +159,7 @@ const FeaturedPage = () => {
           </li>
         </ol>
       </section>
-      <div className='grid-container divider col-start-2'/>
+      <div className='grid-container divider' />
       <section className='grid-container'>
         <h3 className='font-bold text-lg col-start-2 col-span-2'>
           01.
@@ -185,7 +185,7 @@ const FeaturedPage = () => {
           </p>
         </div>
       </section>
-      <div className='grid-container divider col-start-2'/>
+      <div className='grid-container divider'/>
       <figure className='grid-container'>
         <StaticImage
           src='../images/df-image-1.png'
@@ -201,7 +201,7 @@ const FeaturedPage = () => {
           With this working prototype, Sharif was able to start improving the game design with continuous user feedback, while Native focused on de-risking key technical challenges ahead. Together, a feedback loop between design and engineering covered all the critical areas of product development to make rapid progress based on real-world feedback and market validation.
         </p>
       </section>
-      <div className='grid-container divider col-start-2'/>
+      <div className='grid-container divider' />
       <section className='grid-container'>
         <div className='col-start-5 col-span-8 space-y-10 my-10'>
           <p>
@@ -226,7 +226,7 @@ const FeaturedPage = () => {
           </p>
         </div>
       </section>
-      <div className='grid-container divider col-start-2'/>
+      <div className='grid-container divider' />
       <section className='grid-container'>
         <h3 className='font-bold text-lg col-start-2 col-span-2'>
           02.
@@ -283,7 +283,7 @@ const FeaturedPage = () => {
           </p>
         </div>
       </section>
-      <div className='grid-container divider col-start-2'/>
+      <div className='grid-container divider' />
       <section className='grid-container'>
         <h3 className='font-bold text-lg col-start-2 col-span-2'>
           03.
