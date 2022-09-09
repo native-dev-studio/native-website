@@ -28,14 +28,14 @@ const IndexPage = () => {
             lg:col-span-10 lg:mb-32
             mb-14
           '>
-            <div className='bg-black my-5'>
+            <figure className='bg-black my-5'>
               <Link to='/featured'>
                 <StaticImage
                   src='../images/df-case-study-image.png'
                   alt='A futuristic look into tennis'
                 />
               </Link>
-            </div>
+            </figure>
               <div className='lg:grid lg:grid-cols-10 lg:gap-x-9'>
                 <h2 className='text-md col-span-2'>
                   Case Study

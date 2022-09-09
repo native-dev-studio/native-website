@@ -179,6 +179,14 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider col-start-2'/>
+      <figure className='bg-black'>
+        <StaticImage
+          src='../images/df-case-study-image.png'
+        />
+        <figcaption>
+          Foo bar baz
+        </figcaption>
+      </figure>
     </main>
   )
 }
