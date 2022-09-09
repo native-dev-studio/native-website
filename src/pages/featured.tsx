@@ -17,14 +17,16 @@ const FeaturedPage = () => {
           placeholder='tracedSVG'
         />
       </Link>
-      <section className='grid-container mb-10'>
-        <h1 className='text-sm col-start-2 col-span-2'>
-          Case Study
-        </h1>
-        <h1 className='text-lg col-start-5 col-span-7'>
+      <section className='grid-container content mb-10'>
+        <aside>
+          <h1 className='text-sm col-start-2 col-span-2'>
+            Case Study
+          </h1>
+        </aside>
+        <h1 className='text-lg'>
           Dream Fight
         </h1>
-        <h2 className='text-md col-start-5 col-span-7'>
+        <h2 className='text-md'>
           Driving the technical vision for the next generation of sports and gaming
         </h2>
       </section>
@@ -35,14 +37,16 @@ const FeaturedPage = () => {
           className='bg-black col-start-2 col-end-11'
         />
       </figure>
-      <section className='grid-container'>
-        <h3 className='col-start-2 col-span-2 mt-10'>
-          For inquiries
-          <a href='mailto:reef@dreamfight.io' className='block'>
-            reef@dreamfight.io
-          </a>
-        </h3>
-        <div className='col-start-5 col-span-7 my-10 space-y-10'>
+      <section className='grid-container content'>
+        <aside>
+          <h3 className='mt-10'>
+            For inquiries
+            <a href='mailto:reef@dreamfight.io' className='block'>
+              reef@dreamfight.io
+            </a>
+          </h3>
+        </aside>
+        <div className='my-10 space-y-10'>
           <p> 
             When COVID struck and the Olympics were canceled, Sharif Elshinawi, a long-time sports fan working from home, had a vision to bring back the crowd in a new way: with a live, interactive game for the next generation of fans and gamers to play anywhere in the world.
           </p>
@@ -71,11 +75,13 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider'/>
-      <section className='grid-container'>
-        <h3 className='font-bold text-md col-start-2 col-span-2'>
-          What Native did
-        </h3>
-        <ul className='list-disc col-start-5 col-span-7 space-y-5'>
+      <section className='grid-container content'>
+        <aside>
+          <h3 className='font-bold text-md'>
+            What Native did
+          </h3>
+        </aside>
+        <ul className='list-disc space-y-5'>
           <li>
             Research and product strategy
           </li>
@@ -143,11 +149,13 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider'/>
-      <section className='grid-container'>
-        <h3 className='font-bold text-md col-start-2 col-span-2'>
-          3 Big Takeaways
-        </h3>
-        <ol className='list-decimal col-start-5 col-span-3 space-y-5'>
+      <section className='grid-container content'>
+        <aside>
+          <h3 className='font-bold text-md'>
+            3 Big Takeaways
+          </h3>
+        </aside>
+        <ol className='list-decimal space-y-5'>
           <li>
             Balancing vision with feedback
           </li>
@@ -160,17 +168,17 @@ const FeaturedPage = () => {
         </ol>
       </section>
       <div className='grid-container divider' />
-      <section className='grid-container'>
-        <h3 className='font-bold text-lg col-start-2 col-span-2'>
-          01.
-        </h3>
-        <h3 className='text-lg col-start-5 col-span-8'>
+      <section className='grid-container content'>
+        <aside className='font-bold text-lg'>01.</aside>
+        <h3 className='font-bold text-lg'>
           Balancing vision with feedback
         </h3>
-        <h4 className='col-start-2 col-span-2 mt-10'>
-          Iterate early
-        </h4>
-        <div className='col-start-5 col-span-8 my-10 space-y-10'>
+        <aside>
+          <h4 className='mt-10'>
+            Iterate early
+          </h4>
+        </aside>
+        <div className='my-10 space-y-10'>
           <p>
             Dream Fight started ambitiously as a basketball concept inspired by popular titles like NBA Jam that united sport fans and gamers alike. But because building the product fully could take years, Native explored new ways to help Sharif create a working prototype that enabled him to play live matches with test users in weeks, not years.
           </p>
@@ -196,14 +204,14 @@ const FeaturedPage = () => {
           Foo bar baz
         </figcaption>
       </figure>
-      <section className='grid-container'>
-        <p className='col-start-5 col-span-8 my-10'>
+      <section className='grid-container content'>
+        <p className='my-10'>
           With this working prototype, Sharif was able to start improving the game design with continuous user feedback, while Native focused on de-risking key technical challenges ahead. Together, a feedback loop between design and engineering covered all the critical areas of product development to make rapid progress based on real-world feedback and market validation.
         </p>
       </section>
       <div className='grid-container divider' />
-      <section className='grid-container'>
-        <div className='col-start-5 col-span-8 space-y-10 my-10'>
+      <section className='grid-container content'>
+        <div className='space-y-10 my-10'>
           <p>
             While prototyping, we learned:
           </p>
@@ -227,17 +235,21 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider' />
-      <section className='grid-container'>
-        <h3 className='font-bold text-lg col-start-2 col-span-2'>
-          02.
-        </h3>
-        <h3 className='text-lg col-start-5 col-span-8'>
+      <section className='grid-container content'>
+        <aside>
+          <h3 className='font-bold text-lg'>
+            02.
+          </h3>
+        </aside>
+        <h3 className='text-lg'>
           Solving first problems
         </h3>
-        <h4 className='col-start-2 col-span-2 mt-10'>
-          Release planning
-        </h4>
-        <div className='col-start-5 col-span-8 space-y-10 my-10'>
+        <aside>
+          <h4 className='mt-10'>
+            Release planning
+          </h4>
+        </aside>
+        <div className='space-y-10 my-10'>
           <p>
             Dream Fight's premier tennis debut needed to focus on the user's first experience with simple features. The initial release for early users became known as Pong, named after the 1972 Atari table tennis classic that went on to pioneer the video game industry. 
           </p>
@@ -256,8 +268,8 @@ const FeaturedPage = () => {
           Foo bar baz
         </figcaption>
       </figure>
-      <section className='grid-container'>
-        <div className='col-start-5 col-span-8 space-y-10 my-10'>
+      <section className='grid-container content'>
+        <div className='space-y-10 my-10'>
           <p>
             The alpha release had several core technical components:
           </p>
@@ -284,17 +296,21 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider' />
-      <section className='grid-container'>
-        <h3 className='font-bold text-lg col-start-2 col-span-2'>
-          03.
-        </h3>
-        <h3 className='text-lg col-start-5 col-span-8'>
+      <section className='grid-container content'>
+        <aside>
+          <h3 className='font-bold text-lg'>
+            03.
+          </h3>
+        </aside>
+        <h3 className='text-lg'>
           Build and grow with early users
         </h3>
-        <h4 className='col-start-2 col-span-2 font-bold mt-10'>
-          User acquisition
-        </h4>
-        <div className='col-start-5 col-span-8 space-y-10 my-10'>
+        <aside>
+          <h4 className='font-bold mt-10'>
+            User acquisition
+          </h4>
+        </aside>
+        <div className='space-y-10 my-10'>
           <p>
             In 2022, Dream Fight secured a go-to-market partnership with NFT community, Collective.xyz (100K MAU), for its Pong release.
           </p>
@@ -313,8 +329,8 @@ const FeaturedPage = () => {
           Foo bar baz
         </figcaption>
       </figure>
-      <section className='grid-container'>
-        <div className='col-start-5 col-span-8 space-y-10 my-10'>
+      <section className='grid-container content'>
+        <div className='space-y-10 my-10'>
           <p>
             As part of this campaign, Sharif and Native did the following:
           </p>
