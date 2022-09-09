@@ -17,7 +17,7 @@ const FeaturedPage = () => {
           placeholder='tracedSVG'
         />
       </Link>
-      <section className='grid-container'>
+      <section className='grid-container mb-10'>
         <h1 className='text-sm col-start-2 col-span-2'>
           Case Study
         </h1>
@@ -27,12 +27,14 @@ const FeaturedPage = () => {
         <h2 className='text-md col-start-5 col-span-7'>
           Driving the technical vision for the next generation of sports and gaming
         </h2>
+      </section>
+      <figure className='grid-container'>
         <StaticImage
           src='../images/df-case-study-image.png'
           alt='A futuristic look into tennis'
-          className='col-span-10'
+          className='bg-black col-start-2 col-end-11'
         />
-      </section>
+      </figure>
       <section className='grid-container'>
         <h3 className='col-start-2 col-span-2 mt-10'>
           For inquiries
@@ -184,12 +186,13 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider col-start-2'/>
-      <figure className='bg-black'>
+      <figure className='grid-container'>
         <StaticImage
           src='../images/df-image-1.png'
           alt='a basketball game played on OBS Studio'
+          className='bg-black col-start-2 col-end-11'
         />
-        <figcaption>
+        <figcaption className='col-span-10 col-start-2 text-xs'>
           Foo bar baz
         </figcaption>
       </figure>
@@ -243,12 +246,13 @@ const FeaturedPage = () => {
           </p>
         </div>
       </section>
-      <figure className='bg-black'>
+      <figure className='grid-container'>
         <StaticImage
           src='../images/df-image-3.png'
           alt='Nadal swinging with video data alongside'
+          className='bg-black col-start-2 col-end-11'
         />
-        <figcaption>
+        <figcaption className='block col-span-10 col-start-2 text-sm'>
           Foo bar baz
         </figcaption>
       </figure>
@@ -299,12 +303,13 @@ const FeaturedPage = () => {
           </p>
         </div>
       </section>
-      <figure className='bg-black'>
+      <figure className='grid-container'>
         <StaticImage
           src='../images/df-image-4.png'
           alt='The landing page for Dream Fight'
+          className='bg-black col-start-2 col-end-11'
         />
-        <figcaption>
+        <figcaption className='col-start-2 col-span-10 block'>
           Foo bar baz
         </figcaption>
       </figure>
