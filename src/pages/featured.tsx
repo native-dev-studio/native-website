@@ -334,3 +334,5 @@ const FeaturedPage = () => {
 }
 
 export default FeaturedPage
+
+export const Head: HeadFC = () => <title>Native</title>
