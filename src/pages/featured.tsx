@@ -34,9 +34,9 @@ const FeaturedPage = () => {
         />
       </section>
       <section className='grid-container'>
-        <h3 className='col-start-2'>
+        <h3 className='col-start-2 col-span-2 mt-10'>
           For inquiries
-          <a href='mailto:reef@dreamfight.io'>
+          <a href='mailto:reef@dreamfight.io' className='block'>
             reef@dreamfight.io
           </a>
         </h3>
