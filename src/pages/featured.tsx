@@ -70,7 +70,7 @@ const FeaturedPage = () => {
         <h3 className='font-bold text-md col-start-2 col-span-2'>
           What Native did
         </h3>
-        <ul className='col-start-5 col-span-7'>
+        <ul className='list-disc col-start-5 col-span-7'>
           <li>
             Research and product strategy
           </li>
@@ -201,7 +201,7 @@ const FeaturedPage = () => {
           <p>
             While prototyping, we learned:
           </p>
-          <ul>
+          <ul className='list-disc'>
             <li>
               For the system, players and actions move so quickly that AI models would struggle to detect and track them, especially as other players obstructed the view, and jerseys worn by fans and benched players would accidentally mislead the object tracking system!
             </li>
@@ -254,7 +254,7 @@ const FeaturedPage = () => {
           <p>
             The alpha release had several core technical components:
           </p>
-          <ul>
+          <ul className='list-disc'>
             <li>
               Live stream: Video is streamed using adaptive bitrate processing so that users could play Dream Fight smoothly under dynamic network conditions with the overlay graphics scaling accordingly.
             </li>
@@ -310,7 +310,7 @@ const FeaturedPage = () => {
           <p>
             As part of this campaign, Sharif and Native did the following:
           </p>
-          <ul>
+          <ul className='list-disc'>
             <li>
               Campaign strategy: With Collective's help, the team worked to understand their partner's target audience and designed various concepts to test with
             </li>
