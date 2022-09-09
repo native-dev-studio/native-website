@@ -7,13 +7,15 @@ const FeaturedPage = () => {
   return (
     <main className='bg-gray'>
       <div className='banner mb-10' />
-      <StaticImage 
-        src='../images/native-logo.svg'
-        alt='A logo' 
-        height={50}
-        className='lg:ml-44 ml-4 mb-12'
-        placeholder='tracedSVG'
-      />
+      <Link to='/'>
+        <StaticImage 
+          src='../images/native-logo.svg'
+          alt='A logo' 
+          height={50}
+          className='lg:ml-44 ml-4 mb-12'
+          placeholder='tracedSVG'
+        />
+      </Link>
       <section className='grid-container'>
         <h1 className='text-sm col-start-2 col-span-2'>
           Case Study
