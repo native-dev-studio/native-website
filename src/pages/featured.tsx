@@ -182,6 +182,66 @@ const FeaturedPage = () => {
       <figure className='bg-black'>
         <StaticImage
           src='../images/df-case-study-image.png'
+          alt='a basketball game played on OBS Studio'
+        />
+        <figcaption>
+          Foo bar baz
+        </figcaption>
+      </figure>
+      <section className='grid-container'>
+        <p className='col-start-5 col-span-8'>
+          With this working prototype, Sharif was able to start improving the game design with continuous user feedback, while Native focused on de-risking key technical challenges ahead. Together, a feedback loop between design and engineering covered all the critical areas of product development to make rapid progress based on real-world feedback and market validation.
+        </p>
+      </section>
+      <div className='grid-container divider col-start-2'/>
+      <section className='grid-container'>
+        <div className='col-start-5 col-span-8'>
+          <p>
+            While prototyping, we learned:
+          </p>
+          <ul>
+            <li>
+              For the system, players and actions move so quickly that AI models would struggle to detect and track them, especially as other players obstructed the view, and jerseys worn by fans and benched players would accidentally mislead the object tracking system!
+            </li>
+            <li>
+              For the viewers, play-by-play betting had too many possibilities and not enough time to speculate over. In some cases, players would also get injured and benched, which became a twist to solve for.
+            </li>
+          </ul>
+          <p>
+            The results were in: users liked playing with the prototype, but basketball presented some unseen challenges and unpredictability for the system. Although it was possible to overcome the technical challenges with basketball, a new direction was needed to launch sooner into the market to keep up momentum and raise funding. 
+          </p>
+          <p>
+            Tennis became a natural choice between of its rhythm and simplicity. Regulated attire, no overlapping objects, and fixed cameras. 
+          </p>
+          <p>
+            In the time that most new products would still be in the ideation stage, Dream Fight had built out a working prototype with basketball and we were ready to apply what we learned to pivot into a new arena altogether: "Tennis, here we come!"
+          </p>
+        </div>
+      </section>
+      <div className='grid-container divider col-start-2'/>
+      <section className='grid-container'>
+        <h3 className='font-bold text-lg col-start-2 col-span-2'>
+          02.
+        </h3>
+        <h3 className='text-lg col-start-5 col-span-8'>
+          Solving first problems
+        </h3>
+        <h4 className='col-start-2 col-span-2'>
+          Release planning
+        </h4>
+        <div className='col-start-5 col-span-8'>
+          <p>
+            Dream Fight's premier tennis debut needed to focus on the user's first experience with simple features. The initial release for early users became known as Pong, named after the 1972 Atari table tennis classic that went on to pioneer the video game industry. 
+          </p>
+          <p>
+            But in Dream Fight, the experience goes from 2D into extended reality, and where users had the ability to speculate on service shots over a streamed tennis game.
+          </p>
+        </div>
+      </section>
+      <figure className='bg-black'>
+        <StaticImage
+          src='../images/df-case-study-image.png'
+          alt='Nadal swinging with video data alongside'
         />
         <figcaption>
           Foo bar baz
