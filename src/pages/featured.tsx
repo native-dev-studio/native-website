@@ -39,8 +39,8 @@ const FeaturedPage = () => {
             reef@dreamfight.io
           </a>
         </h3>
-        <div className='col-start-5 col-span-7'>
-          <p>
+        <div className='col-start-5 col-span-7 my-10 space-y-10'>
+          <p> 
             When COVID struck and the Olympics were canceled, Sharif Elshinawi, a long-time sports fan working from home, had a vision to bring back the crowd in a new way: with a live, interactive game for the next generation of fans and gamers to play anywhere in the world.
           </p>
           <p>
@@ -70,7 +70,7 @@ const FeaturedPage = () => {
         <h3 className='font-bold text-md col-start-2 col-span-2'>
           What Native did
         </h3>
-        <ul className='list-disc col-start-5 col-span-7'>
+        <ul className='list-disc col-start-5 col-span-7 space-y-5'>
           <li>
             Research and product strategy
           </li>
@@ -142,15 +142,15 @@ const FeaturedPage = () => {
         <h3 className='font-bold text-md col-start-2 col-span-2'>
           3 Big Takeaways
         </h3>
-        <ol className='col-start-5 col-span-3'>
+        <ol className='list-decimal col-start-5 col-span-3 space-y-5'>
           <li>
-            01. Balancing vision with feedback
+            Balancing vision with feedback
           </li>
           <li>
-            02. Solving first problems
+            Solving first problems
           </li>
           <li>
-            03. Build and grow with early users
+            Build and grow with early users
           </li>
         </ol>
       </section>
@@ -162,10 +162,10 @@ const FeaturedPage = () => {
         <h3 className='text-lg col-start-5 col-span-8'>
           Balancing vision with feedback
         </h3>
-        <h4 className='col-start-2 col-span-2'>
+        <h4 className='col-start-2 col-span-2 mt-10'>
           Iterate early
         </h4>
-        <div className='col-start-5 col-span-8'>
+        <div className='col-start-5 col-span-8 my-10 space-y-10'>
           <p>
             Dream Fight started ambitiously as a basketball concept inspired by popular titles like NBA Jam that united sport fans and gamers alike. But because building the product fully could take years, Native explored new ways to help Sharif create a working prototype that enabled him to play live matches with test users in weeks, not years.
           </p>
@@ -191,17 +191,17 @@ const FeaturedPage = () => {
         </figcaption>
       </figure>
       <section className='grid-container'>
-        <p className='col-start-5 col-span-8'>
+        <p className='col-start-5 col-span-8 my-10'>
           With this working prototype, Sharif was able to start improving the game design with continuous user feedback, while Native focused on de-risking key technical challenges ahead. Together, a feedback loop between design and engineering covered all the critical areas of product development to make rapid progress based on real-world feedback and market validation.
         </p>
       </section>
       <div className='grid-container divider col-start-2'/>
       <section className='grid-container'>
-        <div className='col-start-5 col-span-8'>
+        <div className='col-start-5 col-span-8 space-y-10 my-10'>
           <p>
             While prototyping, we learned:
           </p>
-          <ul className='list-disc'>
+          <ul className='list-disc space-y-10'>
             <li>
               For the system, players and actions move so quickly that AI models would struggle to detect and track them, especially as other players obstructed the view, and jerseys worn by fans and benched players would accidentally mislead the object tracking system!
             </li>
@@ -210,7 +210,7 @@ const FeaturedPage = () => {
             </li>
           </ul>
           <p>
-            The results were in: users liked playing with the prototype, but basketball presented some unseen challenges and unpredictability for the system. Although it was possible to overcome the technical challenges with basketball, a new direction was needed to launch sooner into the market to keep up momentum and raise funding. 
+            <span className='font-bold'>The results were in:</span> users liked playing with the prototype, but basketball presented some unseen challenges and unpredictability for the system. Although it was possible to overcome the technical challenges with basketball, a new direction was needed to launch sooner into the market to keep up momentum and raise funding. 
           </p>
           <p>
             Tennis became a natural choice between of its rhythm and simplicity. Regulated attire, no overlapping objects, and fixed cameras. 
@@ -228,10 +228,10 @@ const FeaturedPage = () => {
         <h3 className='text-lg col-start-5 col-span-8'>
           Solving first problems
         </h3>
-        <h4 className='col-start-2 col-span-2'>
+        <h4 className='col-start-2 col-span-2 mt-10'>
           Release planning
         </h4>
-        <div className='col-start-5 col-span-8'>
+        <div className='col-start-5 col-span-8 space-y-10 my-10'>
           <p>
             Dream Fight's premier tennis debut needed to focus on the user's first experience with simple features. The initial release for early users became known as Pong, named after the 1972 Atari table tennis classic that went on to pioneer the video game industry. 
           </p>
@@ -250,11 +250,11 @@ const FeaturedPage = () => {
         </figcaption>
       </figure>
       <section className='grid-container'>
-        <div className='col-start-5 col-span-8'>
+        <div className='col-start-5 col-span-8 space-y-10 my-10'>
           <p>
             The alpha release had several core technical components:
           </p>
-          <ul className='list-disc'>
+          <ul className='list-disc space-y-10'>
             <li>
               Live stream: Video is streamed using adaptive bitrate processing so that users could play Dream Fight smoothly under dynamic network conditions with the overlay graphics scaling accordingly.
             </li>
@@ -284,10 +284,10 @@ const FeaturedPage = () => {
         <h3 className='text-lg col-start-5 col-span-8'>
           Build and grow with early users
         </h3>
-        <h4 className='col-start-2 col-span-2'>
+        <h4 className='col-start-2 col-span-2 font-bold mt-10'>
           User acquisition
         </h4>
-        <div className='col-start-5 col-span-8'>
+        <div className='col-start-5 col-span-8 space-y-10 my-10'>
           <p>
             In 2022, Dream Fight secured a go-to-market partnership with NFT community, Collective.xyz (100K MAU), for its Pong release.
           </p>
@@ -306,11 +306,11 @@ const FeaturedPage = () => {
         </figcaption>
       </figure>
       <section className='grid-container'>
-        <div className='col-start-5 col-span-8'>
+        <div className='col-start-5 col-span-8 space-y-10 my-10'>
           <p>
             As part of this campaign, Sharif and Native did the following:
           </p>
-          <ul className='list-disc'>
+          <ul className='list-disc space-y-10'>
             <li>
               Campaign strategy: With Collective's help, the team worked to understand their partner's target audience and designed various concepts to test with
             </li>
