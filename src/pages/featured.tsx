@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link, graphql } from "gatsby"
 import type { HeadFC } from "gatsby"
 import { StaticImage } from 'gatsby-plugin-image'
+import Footer from '../components/Footer';
 
 const FeaturedPage = () => {
   return (
@@ -329,6 +330,7 @@ const FeaturedPage = () => {
           </p>
         </div>
       </section>
+      <Footer />
     </main>
   )
 }
