@@ -53,7 +53,7 @@ const FeaturedPage = () => {
             Dream Fight was born: instead of shouting at the TV with your friends about what might happen next, you place bets in real-time, serve-by-serve, shot-by-shot, over live broadcast. Suddenly, fire blazes across the court as Federer makes his 120-mph drop shot straight for Nadal's head. This game-winning shot, minted live as an NFT, is a prize that you, the player, earns.
           </p>
           <p>
-            The Problem: Where to start? But how is Sharif, a designer, supposed to form the right team and technical leadership to build a project so complex? How is he supposed to develop the technical strategy to ship this product quickly, attract investors, and scale it?
+            <span className='block font-bold'>The Problem: Where to start?</span> But how is Sharif, a designer, supposed to form the right team and technical leadership to build a project so complex? How is he supposed to develop the technical strategy to ship this product quickly, attract investors, and scale it?
           </p>
           <p>
             Anxiety and stress set in, but when Sharif was referred to Native and met Kel Kanhirun, he was soon able to regain his foothold as a brand and design leader as Kel helped guide Dream Fight's technical direction, and together they were able to weave the art of what's possible with technology along Sharif's creative vision.
