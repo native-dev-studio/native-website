@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 const FeaturedPage = () => {
   return (
-    <main className='bg-gray-200'>
+    <main className='bg-gray-200 space-y-10'>
       <div className='banner mb-10' />
       <Link to='/'>
         <StaticImage 
@@ -17,7 +17,7 @@ const FeaturedPage = () => {
           placeholder='tracedSVG'
         />
       </Link>
-      <section className='grid-container content mb-10'>
+      <section className='grid-container content'>
         <aside className='sm:mb-10'>
           <h1 className='text-sm'>
             Case Study
