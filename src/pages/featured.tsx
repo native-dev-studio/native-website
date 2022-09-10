@@ -60,7 +60,7 @@ const FeaturedPage = () => {
           </p>
       </div>
       </section>
-      <section className='grid-container text-center'>
+      <section className='grid-container text-center hidden'>
         <div className='lg:col-start-2 lg:col-end-12 col-span-4'>
           <blockquote className='font-bold mb-3 text-md'>
             “A lovely quotable that makes Native really communicate that their value is something clients believe in and have communicated here so to establish trust. Another’s word helps, here.”
