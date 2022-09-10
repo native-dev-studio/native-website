@@ -102,11 +102,11 @@ const FeaturedPage = () => {
         </ul>
       </section>
       <div className='grid-container divider'/>
-      <section className='grid grid-flow-col lg:grid-rows-2 grid-rows-3 gap-x-10 md:mx-16 mx-3'>
-        <h3 className='font-bold text-md my-5'>
+      <section className='grid-container lg:gap-y-12 md:gap-y-8'>
+        <h3 className='lg:col-start-2 lg:col-span-3 col-span-4 font-bold text-md my-5'>
           Outcomes
         </h3>
-        <div>
+        <div className='lg:col-span-3 col-span-4'>
           <div className='font-bold text-2xl'>
             1
           </div>
@@ -114,7 +114,7 @@ const FeaturedPage = () => {
             GTM partner deal secured <br />with Gen Z platform
           </span>
         </div>
-        <div>
+        <div className='lg:col-span-3 col-span-4'>
           <div className='font-bold text-2xl'>
             3
           </div>
@@ -122,7 +122,7 @@ const FeaturedPage = () => {
             weeks from kick-off <br />to prototype
           </span>
         </div>
-        <div>
+        <div className='lg:col-start-2 lg:col-span-3 col-span-4'>
           <div className='font-bold text-2xl'>
             5
           </div>
@@ -130,7 +130,7 @@ const FeaturedPage = () => {
             users tested <br />in the 1st month
           </span>
         </div>
-        <div>
+        <div className='lg:col-span-3 col-span-4'>
           <div className='font-bold text-2xl'>
             5
           </div>
@@ -138,7 +138,7 @@ const FeaturedPage = () => {
             pitches to top-tier <br />sports companies
           </span>
         </div>
-        <div className=''>
+        <div className='lg:col-span-3 col-span-4'>
           <div className='font-bold text-2xl'>
             3
           </div>

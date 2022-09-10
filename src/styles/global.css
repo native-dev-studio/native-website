@@ -38,7 +38,8 @@
 
   .grid-container {
     @apply grid grid-cols-4 mx-4
-           lg:grid-cols-12 lg:mx-16;
+           md:grid-cols-8 md:mx-9 md:gap-x-9
+           lg:grid-cols-12 lg:mx-16 lg:gap-x-16;
   }
 
   .grid-container > * {
@@ -52,7 +53,7 @@
    */
 
   .grid-container.content aside {
-    @apply lg:col-start-2 lg:col-span-2;
+    @apply lg:col-start-2 lg:col-span-3;
   }
 
   .grid-container.content > * {
@@ -72,9 +73,8 @@
    * Images
    */
 
-
   .grid-container > .gatsby-image-wrapper {
-    @apply bg-black lg:col-start-2 lg:col-end-12 col-span-4;
+    @apply bg-black lg:col-start-2 lg:col-end-[-2] col-end-auto;
   }
 
   .grid-container .gatsby-image-wrapper + figcaption {
