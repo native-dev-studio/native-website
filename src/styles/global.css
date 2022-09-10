@@ -20,7 +20,7 @@
     @apply hover:text-red !important;
   }
 
-  li {
+  .content li {
     @apply md:ml-5 ml-3;
   }
 
