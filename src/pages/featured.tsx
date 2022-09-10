@@ -19,7 +19,7 @@ const FeaturedPage = () => {
       </Link>
       <section className='grid-container content mb-10'>
         <aside className='sm:mb-10'>
-          <h1 className='text-sm col-start-2 col-span-2'>
+          <h1 className='text-sm'>
             Case Study
           </h1>
         </aside>
