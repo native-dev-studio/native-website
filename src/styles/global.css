@@ -20,9 +20,21 @@
     @apply hover:text-red !important;
   }
 
+  li {
+    @apply md:ml-5 ml-1;
+  }
+
+  /*
+   * Banner
+   */
+
   .banner {
     @apply w-screen h-4 bg-gradient-to-r from-yellow to-red;
   }
+
+  /*
+   * Grid
+   */
 
   .grid-container {
     @apply grid grid-cols-4 mx-4
@@ -35,15 +47,9 @@
            lg:col-start-2 lg:col-span-10;
   }
 
-  .grid-container > .item:first-of-type {
-    @apply lg:col-start-2;
-  }
-
-  .grid-container > .item {
-    @apply col-span-4 my-4
-           md:col-span-1
-           lg:col-span-3;
-  }
+  /*
+   * Content
+   */
 
   .grid-container.content aside {
     @apply lg:col-start-2 lg:col-span-2;
@@ -53,10 +59,19 @@
     @apply lg:col-start-5 lg:col-span-7 col-span-12;
   }
 
+  /*
+   * Dividers
+   */
+
   .grid-container.divider, .grid-container > .divider {
     @apply h-0.5 bg-white mt-10 mb-2
            lg:col-start-2 lg:col-span-10;
   }
+
+  /*
+   * Images
+   */
+
 
   .grid-container > .gatsby-image-wrapper {
     @apply bg-black lg:col-start-2 lg:col-end-12 col-span-4;
