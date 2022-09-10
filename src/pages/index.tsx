@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 const IndexPage = () => {
   return (
-    <main className='bg-gray'>
+    <main className='bg-gray-200'>
       <div className='banner mb-10' />
       <StaticImage 
         src='../images/native-logo.svg'

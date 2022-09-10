@@ -6,7 +6,7 @@ import Footer from '../components/Footer';
 
 const FeaturedPage = () => {
   return (
-    <main className='bg-gray'>
+    <main className='bg-gray-200'>
       <div className='banner mb-10' />
       <Link to='/'>
         <StaticImage 
@@ -198,7 +198,7 @@ const FeaturedPage = () => {
           src='../images/df-image-1.png'
           alt='a basketball game played on OBS Studio'
         />
-        <figcaption className='col-span-10 col-start-2 text-xs'>
+        <figcaption className='text-gray-100'>
           We made Dream Fight feel real to test users with a bit of magic
         </figcaption>
       </figure>
@@ -261,7 +261,7 @@ const FeaturedPage = () => {
           src='../images/df-image-3.png'
           alt='Nadal swinging with video data alongside'
         />
-        <figcaption className='block col-span-10 col-start-2 text-sm'>
+        <figcaption className='text-gray-100'>
           Product development lifecycle across design and engineering
         </figcaption>
       </figure>
@@ -321,7 +321,7 @@ const FeaturedPage = () => {
           src='../images/df-image-4.png'
           alt='The landing page for Dream Fight'
         />
-        <figcaption className='col-start-2 col-span-10 block'>
+        <figcaption className='text-gray-100'>
           The landing page for Dream Fight's first release
         </figcaption>
       </figure>

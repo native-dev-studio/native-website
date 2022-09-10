@@ -4,7 +4,7 @@ import { StaticImage } from 'gatsby-plugin-image'
 const Footer = () => {
   return (
       <footer className='
-        bg-gray-dark
+        bg-gray-300
         lg:py-24
         py-10
       '>
