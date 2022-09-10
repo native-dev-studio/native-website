@@ -47,10 +47,10 @@ const FeaturedPage = () => {
         </aside>
         <div className='my-10 space-y-10'>
           <p> 
-            When COVID struck and the Olympics were canceled, Sharif Elshinawi, a long-time sports fan working from home, had a vision to bring back the crowd in a new way: with a live, interactive game for the next generation of fans and gamers to play anywhere in the world.
+            When COVID struck and the Olympics were canceled, <span className='font-bold'>Sharif Elshinawi</span>, a long-time sports fan working from home, had a vision to bring back the crowd in a new way: with a live, interactive game for the next generation of fans and gamers to play anywhere in the world.
           </p>
           <p>
-            Dream Fight was born: instead of shouting at the TV with your friends about what might happen next, you place bets in real-time, serve-by-serve, shot-by-shot, over live broadcast. Suddenly, fire blazes across the court as Federer makes his 120-mph drop shot straight for Nadal's head. This game-winning shot, minted live as an NFT, is a prize that you, the player, earns.
+            <span className='font-bold'>Dream Fight was born:</span> instead of shouting at the TV with your friends about what might happen next, you place bets in real-time, serve-by-serve, shot-by-shot, over live broadcast. Suddenly, fire blazes across the court as Federer makes his 120-mph drop shot straight for Nadal's head. This game-winning shot, minted live as an NFT, is a prize that you, the player, earns.
           </p>
           <p>
             <span className='block font-bold'>The Problem: Where to start?</span> But how is Sharif, a designer, supposed to form the right team and technical leadership to build a project so complex? How is he supposed to develop the technical strategy to ship this product quickly, attract investors, and scale it?
@@ -179,16 +179,16 @@ const FeaturedPage = () => {
         </aside>
         <div className='lg:my-10 space-y-10'>
           <p>
+            Dream Fight started ambitiously as a basketball concept inspired by popular titles like NBA Jam that united sport fans and gamers alike. But because building the product fully could take years, Native explored new ways to help Sharif create a <span className='font-bold'>working prototype</span> that enabled him to play live matches with test users in weeks, not years.
+          </p>
+          <p>
+            As an augmented reality experience, most of the game is the sport, and the Dream Fight layer can be simplified as <span className='font-bold'>"shot-calling as a game"</span> that needs only scoring, detection, and an organized set of rules as basic requirements.
+          </p>
+          <p>
             Dream Fight started ambitiously as a basketball concept inspired by popular titles like NBA Jam that united sport fans and gamers alike. But because building the product fully could take years, Native explored new ways to help Sharif create a working prototype that enabled him to play live matches with test users in weeks, not years.
           </p>
           <p>
-            As an augmented reality experience, most of the game is the sport, and the Dream Fight layer can be simplified as "shot-calling as a game" that needs only scoring, detection, and an organized set of rules as basic requirements.
-          </p>
-          <p>
-            Dream Fight started ambitiously as a basketball concept inspired by popular titles like NBA Jam that united sport fans and gamers alike. But because building the product fully could take years, Native explored new ways to help Sharif create a working prototype that enabled him to play live matches with test users in weeks, not years.
-          </p>
-          <p>
-            However, to really surprise and delight the user, Native developed a way to also to make Dream Fight feel real to test users. To accomplish this, the team simulated the graphics overlay of the game with the creative use of OBS Studio, hotkeys, and animation triggers to deliver realistic gameplay within the first 30 days of the project.
+            However, to really surprise and delight the user, Native developed a way to also to make Dream Fight feel real to test users. To accomplish this, the team simulated the graphics overlay of the game with the creative use of OBS Studio, hotkeys, and animation triggers to deliver realistic gameplay within the <span className='font-bold'>first 30 days</span> of the project.
           </p>
         </div>
       </section>
@@ -272,13 +272,13 @@ const FeaturedPage = () => {
           </p>
           <ul className='list-disc space-y-10'>
             <li>
-              Live stream: Video is streamed using adaptive bitrate processing so that users could play Dream Fight smoothly under dynamic network conditions with the overlay graphics scaling accordingly.
+              <span className='font-bold'>Live stream:</span> Video is streamed using adaptive bitrate processing so that users could play Dream Fight smoothly under dynamic network conditions with the overlay graphics scaling accordingly.
             </li>
             <li>
-              Network: Backend systems had the ability to scale its feed across multiple devices and compatible streaming formats.
+              <span className='font-bold'>Network:</span> Backend systems had the ability to scale its feed across multiple devices and compatible streaming formats.
             </li>
             <li>
-              Rendering: Client application had the ability to render complex animations such as high-volume particle generation and data-driven behavior over GPU on either mobile and browser.
+              <span className='font-bold'>Rendering:</span> Client application had the ability to render complex animations such as high-volume particle generation and data-driven behavior over GPU on either mobile and browser.
             </li>
           </ul>
           <p>
@@ -332,18 +332,18 @@ const FeaturedPage = () => {
           </p>
           <ul className='list-disc space-y-10'>
             <li>
-              Campaign strategy: With Collective's help, the team worked to understand their partner's target audience and designed various concepts to test with
+              <span className='font-bold'>Campaign strategy:</span> With Collective's help, the team worked to understand their partner's target audience and designed various concepts to test with
             </li>
             <li>
-              Screenplay written from the perspective of a Collective user to serve both as an NFT campaign plan for GTM stakeholders and a design brief for visual artists
+              <span className='font-bold'>Screenplay</span> written from the perspective of a Collective user to serve both as an NFT campaign plan for GTM stakeholders and a design brief for visual artists
             </li>
             <li>
-              Branded NFTs hosted on Ethereum and customized to meet specific campaign requirements for the site 
+              <span className='font-bold'>Branded NFTs</span> hosted on Ethereum and customized to meet specific campaign requirements for the site
+            </li>
+            <li>
+              <span className='font-bold'>3D visual assets</span> that contained artistic nuances foreshadowing future roadmap events
             </li>
           </ul>
-          <p>
-            3D visual assets that contained artistic nuances foreshadowing future roadmap events
-          </p>
           <p>
             Dream Fight's "Get in the Game" campaign launches in October 2022 for 100 early users to play, for the first time, a live interactive game that honors and celebrates the sport for the next generation of fans and gamers.
           </p>
