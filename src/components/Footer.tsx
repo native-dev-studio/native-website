@@ -57,9 +57,9 @@ const Footer = () => {
               </li>
             </ul>
             <ul className='
-              lg:col-start-5 lg:col-span-3
-              md:col-start-4 md:col-span-3
-              col-span-3
+              lg:col-start-4 lg:col-span-2
+              md:col-start-4
+              col-span-4
               '>
               <li className='font-bold lg:text-md text-sm'>
                 Learn
@@ -74,7 +74,7 @@ const Footer = () => {
               </li>
             </ul>
             <ul className='
-              lg:col-start-8
+              lg:col-start-6
               md:col-start-7 md:col-span-2
               col-span-4
               '>
