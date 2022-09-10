@@ -18,7 +18,7 @@ const Footer = () => {
             mb-5
             '
           />
-          <div className='grid-container'>
+          <div className='grid-container gap-y-5'>
             <p className='mt-2 mb-5'>
               Interested in learning more about our approach to custom software? Reach out to&nbsp;
               <a href='mailto:workwith@native.dev' className='underline'>
@@ -79,6 +79,7 @@ const Footer = () => {
             <p className='
               lg:col-start-2 lg:col-span-10
               col-span-4 text-xs
+              -mt-5
               '>
               Copyright 2022. All Rights Reserved.
             </p>
