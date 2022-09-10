@@ -74,7 +74,7 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider'/>
-      <section className='grid-container content'>
+      <section className='grid-container content gap-y-5'>
         <aside>
           <h3 className='font-bold text-md'>
             What Native did
