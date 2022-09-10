@@ -38,7 +38,7 @@ const IndexPage = () => {
               </Link>
             </figure>
               <div className='lg:grid lg:grid-cols-10 lg:gap-x-9'>
-                <h2 className='text-md col-span-2'>
+                <h2 className='font-bold text-md col-span-2'>
                   Case Study
                 </h2>
                 <p className='col-start-4 col-span-6'>

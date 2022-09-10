@@ -27,7 +27,7 @@ const Footer = () => {
             </p>
             <div className='flex md:flex-row flex-col md:space-y-0 space-y-5'>
               <ul className='md:flex-auto'>
-                <li className='font-bold md:text-md text-sm'>
+                <li className='md:text-md text-sm'>
                   Contact
                 </li>
                 <li>
@@ -47,7 +47,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul className='md:flex-auto'>
-                <li className='font-bold md:text-md text-sm'>
+                <li className='md:text-md text-sm'>
                   Work with us
                 </li>
                 <li>
@@ -60,7 +60,7 @@ const Footer = () => {
                 </li>
               </ul>
               <ul className='md:flex-auto'>
-                <li className='font-bold md:text-md text-sm'>
+                <li className='md:text-md text-sm'>
                   Connect
                 </li>
                 <li>

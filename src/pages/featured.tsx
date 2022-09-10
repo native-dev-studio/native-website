@@ -19,14 +19,14 @@ const FeaturedPage = () => {
       </Link>
       <section className='grid-container content'>
         <aside className='sm:mb-10'>
-          <h1 className='text-sm'>
+          <h1 className='font-bold text-sm'>
             Case Study
           </h1>
         </aside>
-        <h1 className='text-lg'>
+        <h1 className='font-bold text-lg'>
           Dream Fight
         </h1>
-        <h2 className='text-md'>
+        <h2 className='font-bold text-md'>
           Driving the technical vision for the next generation of sports and gaming
         </h2>
       </section>
@@ -38,9 +38,9 @@ const FeaturedPage = () => {
       </figure>
       <section className='grid-container content'>
         <aside>
-          <h3 className='mt-10'>
+          <h3 className='font-bold mt-10'>
             For inquiries
-            <a href='mailto:reef@dreamfight.io' className='block'>
+            <a href='mailto:reef@dreamfight.io' className='font-bold block'>
               reef@dreamfight.io
             </a>
           </h3>
@@ -148,9 +148,9 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider'/>
-      <section className='grid-container content'>
+      <section className='grid-container font-bold content'>
         <aside>
-          <h3 className='font-bold text-md'>
+          <h3 className='text-md'>
             3 Big Takeaways
           </h3>
         </aside>
@@ -173,7 +173,7 @@ const FeaturedPage = () => {
           Balancing vision with feedback
         </h3>
         <aside>
-          <h4 className='md:mt-10 mt-5'>
+          <h4 className='font-bold md:mt-10 mt-5'>
             Iterate early
           </h4>
         </aside>
@@ -239,11 +239,11 @@ const FeaturedPage = () => {
             02.
           </h3>
         </aside>
-        <h3 className='text-lg'>
+        <h3 className='font-bold text-lg'>
           Solving first problems
         </h3>
         <aside>
-          <h4 className='md:mt-10 mt-5'>
+          <h4 className='font-bold md:mt-10 mt-5'>
             Release planning
           </h4>
         </aside>
@@ -299,7 +299,7 @@ const FeaturedPage = () => {
             03.
           </h3>
         </aside>
-        <h3 className='text-lg'>
+        <h3 className='font-bold text-lg'>
           Build and grow with early users
         </h3>
         <aside>

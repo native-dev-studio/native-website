@@ -8,8 +8,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'semibold': ['PPPangramSans-Semibold'],
-        'bold': ['PPPangramSans-Bold'],
+        'bold': ['PPPangramSans-Semibold'],
+        // 'bold': ['PPPangramSans-Bold'],
       },
       screens: {
         'sm': '410px',
