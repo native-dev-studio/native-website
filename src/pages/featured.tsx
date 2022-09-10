@@ -148,7 +148,7 @@ const FeaturedPage = () => {
         </div>
       </section>
       <div className='grid-container divider'/>
-      <section className='grid-container font-bold content'>
+      <section className='grid-container font-bold content gap-y-5'>
         <aside>
           <h3 className='text-md'>
             3 Big Takeaways
