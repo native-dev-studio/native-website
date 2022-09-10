@@ -199,7 +199,7 @@ const FeaturedPage = () => {
           alt='a basketball game played on OBS Studio'
         />
         <figcaption className='col-span-10 col-start-2 text-xs'>
-          Foo bar baz
+          We made Dream Fight feel real to test users with a bit of magic
         </figcaption>
       </figure>
       <section className='grid-container content'>
@@ -262,7 +262,7 @@ const FeaturedPage = () => {
           alt='Nadal swinging with video data alongside'
         />
         <figcaption className='block col-span-10 col-start-2 text-sm'>
-          Foo bar baz
+          Product development lifecycle across design and engineering
         </figcaption>
       </figure>
       <section className='grid-container content'>
@@ -322,7 +322,7 @@ const FeaturedPage = () => {
           alt='The landing page for Dream Fight'
         />
         <figcaption className='col-start-2 col-span-10 block'>
-          Foo bar baz
+          The landing page for Dream Fight's first release
         </figcaption>
       </figure>
       <section className='grid-container content'>
