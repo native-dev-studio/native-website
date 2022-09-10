@@ -173,11 +173,11 @@ const FeaturedPage = () => {
           Balancing vision with feedback
         </h3>
         <aside>
-          <h4 className='mt-10'>
+          <h4 className='md:mt-10 mt-5'>
             Iterate early
           </h4>
         </aside>
-        <div className='my-10 space-y-10'>
+        <div className='lg:my-10 space-y-10'>
           <p>
             Dream Fight started ambitiously as a basketball concept inspired by popular titles like NBA Jam that united sport fans and gamers alike. But because building the product fully could take years, Native explored new ways to help Sharif create a working prototype that enabled him to play live matches with test users in weeks, not years.
           </p>
@@ -243,11 +243,11 @@ const FeaturedPage = () => {
           Solving first problems
         </h3>
         <aside>
-          <h4 className='mt-10'>
+          <h4 className='md:mt-10 mt-5'>
             Release planning
           </h4>
         </aside>
-        <div className='space-y-10 my-10'>
+        <div className='space-y-10 lg:my-10'>
           <p>
             Dream Fight's premier tennis debut needed to focus on the user's first experience with simple features. The initial release for early users became known as Pong, named after the 1972 Atari table tennis classic that went on to pioneer the video game industry. 
           </p>
@@ -303,11 +303,11 @@ const FeaturedPage = () => {
           Build and grow with early users
         </h3>
         <aside>
-          <h4 className='font-bold mt-10'>
+          <h4 className='font-bold md:mt-10 mt-5'>
             User acquisition
           </h4>
         </aside>
-        <div className='space-y-10 my-10'>
+        <div className='space-y-10 lg:my-10'>
           <p>
             In 2022, Dream Fight secured a go-to-market partnership with NFT community, Collective.xyz (100K MAU), for its Pong release.
           </p>
