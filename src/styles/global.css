@@ -21,7 +21,7 @@
   }
 
   li {
-    @apply md:ml-5 ml-1;
+    @apply md:ml-5 ml-3;
   }
 
   /*

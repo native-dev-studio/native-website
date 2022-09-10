@@ -102,48 +102,48 @@ const FeaturedPage = () => {
         </ul>
       </section>
       <div className='grid-container divider'/>
-      <section className='grid-container'>
-        <h3 className='font-bold text-md col-start-2'>
+      <section className='grid grid-flow-col lg:grid-rows-2 grid-rows-3 gap-x-10 md:mx-16 mx-3'>
+        <h3 className='font-bold text-md my-5'>
           Outcomes
         </h3>
-        <div className='col-start-5 col-span-2'>
+        <div>
           <div className='font-bold text-2xl'>
             1
           </div>
           <span className='text-xs'>
-            GTM partner deal with Gen Z platform
+            GTM partner deal secured <br />with Gen Z platform
           </span>
         </div>
-        <div className='col-start-8 col-span-2'>
+        <div>
           <div className='font-bold text-2xl'>
             3
           </div>
           <span className='text-xs'>
-            weeks from kick-off to prototype
+            weeks from kick-off <br />to prototype
           </span>
         </div>
-        <div className='col-start-2 col-span-2'>
+        <div>
           <div className='font-bold text-2xl'>
             5
           </div>
           <span className='text-xs'>
-            user tested
+            users tested <br />in the 1st month
           </span>
         </div>
-        <div className='col-start-5 col-span-2'>
+        <div>
           <div className='font-bold text-2xl'>
             5
           </div>
           <span className='text-xs'>
-            pitches to top-tier sports firms
+            pitches to top-tier <br />sports companies
           </span>
         </div>
-        <div className='col-start-8 col-span-2'>
+        <div className=''>
           <div className='font-bold text-2xl'>
             3
           </div>
           <span className='text-xs'>
-            advisors onboarded: AI, commercial, and partnerships
+            advisors onboarded:<br /> AI, commercial, and partnerships
           </span>
         </div>
       </section>
