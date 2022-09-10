@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'semibold': ['PPPangramSans-Semibold'],
+        'bold': ['PPPangramSans-Bold'],
+      },
       screens: {
         'sm': '410px',
         'md': '600px',

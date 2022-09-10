@@ -2,3 +2,13 @@
   font-family: "PPPangramSans";
   src: url("../fonts/PPPangramSans-Regular.woff2");
 }
+
+@font-face {
+  font-family: "PPPangramSans-Semibold";
+  src: url("../fonts/PPPangramSans-Semibold.otf");
+}
+
+@font-face {
+  font-family: "PPPangramSans-Bold";
+  src: url("../fonts/PPPangramSans-Bold.otf");
+}
