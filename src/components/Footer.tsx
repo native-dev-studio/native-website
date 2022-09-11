@@ -70,6 +70,11 @@ const Footer = () => {
                     Github
                   </a>
                 </li>
+                <li>
+                  <a href='https://www.instagram.com/ntv.dev' className='text-white md:text-sm text-xs'>
+                    Instagram
+                  </a>
+                </li>
               </ul>
             </div>
             <div className='divider' />
