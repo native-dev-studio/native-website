@@ -12,10 +12,10 @@ const IndexPage = () => {
         src='../images/native-logo.svg'
         alt='A logo' 
         height={50}
-        className='lg:ml-44 ml-4 mb-12'
+        className='lg:ml-44 md:ml-9 ml-4 mb-12'
         placeholder='tracedSVG'
       />
-      <div className='lg:grid-container mx-4'>
+      <div className='grid-container'>
         <div className='lg:grid lg:grid-cols-10 lg:gap-x-9 lg:col-start-2 lg:col-span-10'>
           <section className='lg:col-start-4 lg:col-span-7 lg:my-10'>
             <h1 className='lg:text-xl md:text-lg text-md font-bold leading-tight pb-8'>
@@ -38,7 +38,7 @@ const IndexPage = () => {
               </Link>
             </figure>
               <div className='lg:grid lg:grid-cols-10 lg:gap-x-9'>
-                <h2 className='font-bold text-md col-span-2'>
+                <h2 className='font-bold md:text-md text-sm col-span-2'>
                   Case Study
                 </h2>
                 <p className='col-start-4 col-span-6'>

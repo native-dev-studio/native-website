@@ -13,10 +13,7 @@ const Footer = () => {
             alt='A logo'
             width={50}
             placeholder='tracedSVG'
-            className='
-            lg:ml-44 ml-4
-            mb-5
-            '
+            className='lg:ml-44 md:ml-9 ml-4 mb-5'
           />
           <div className='grid-container gap-y-5'>
             <p className='mt-2 mb-5'>
