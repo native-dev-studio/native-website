@@ -22,7 +22,7 @@ const IndexPage = () => {
               Expert partners in Web3 product, engineering & strategy
             </h1>
             <p>
-              Native is an independent studio helping startups & businesses build their mission-critical products in Web3. Discover what makes Native an effective partner for a16z and ConsenSys for their crypto projects.
+              Native is not just any studio that helps companies build products on Web3. Discover what makes us an effective partner for companies like a16z and ConsenSys on their next big crypto project.
             </p>
           </section>
           <section className='
