@@ -48,7 +48,7 @@ const Footer = () => {
                   Work with us
                 </li>
                 <li>
-                  <a href='https://pitch.com/v/website-u6wxwg' className='text-white md:text-sm text-xs'>
+                  <a href='https://pitch.com/v/web-pexx83' className='text-white md:text-sm text-xs'>
                     Native Pitch Deck
                   </a>
                   <span className='ml-2 rounded-full bg-red py-1.5 px-4 text-xs bg-blue'>
