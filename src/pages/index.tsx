@@ -42,7 +42,7 @@ const IndexPage = () => {
                   Case Study
                 </h2>
                 <p className='col-start-4 col-span-6'>
-                  The future of sports will go beyond watching TV. With Dream Fight, we set out to build a playable game on top of live sports broadcast.&nbsp;
+                  The future of sports goes beyond watching TV. In Dream Fight, users engage in a new type of game augmented over live sports broadcast.&nbsp;
                   <Link to='/featured' className='underline'>
                     Read more
                   </Link>.
