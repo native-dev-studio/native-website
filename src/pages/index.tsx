@@ -42,7 +42,7 @@ const IndexPage = () => {
                   Case Study
                 </h2>
                 <p className='col-start-4 col-span-6'>
-                  Dream Fight is bringing back the magic of sports and gaming.&nbsp; 
+                  The future of sports will go beyond watching TV. With Dream Fight, we set out to build a playable game on top of live sports broadcast.&nbsp;
                   <Link to='/featured' className='underline'>
                     Read more
                   </Link>.
