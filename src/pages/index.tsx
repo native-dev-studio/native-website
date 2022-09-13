@@ -22,7 +22,7 @@ const IndexPage = () => {
               Expert partners in Web3 product, engineering & strategy
             </h1>
             <p>
-              Native is an independent studio building Web3 products for startups & businesses. We help define your technical vision and form the right team and leadership support to execute it.
+              Native is an independent studio helping startups & businesses build their mission-critical products in Web3. Discover what makes Native an effective partner for a16z and ConsenSys for their crypto projects.
             </p>
           </section>
           <section className='
