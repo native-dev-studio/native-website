@@ -14,6 +14,14 @@ const config: GatsbyConfig = {
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     {
+      resolve: 'gatsby-plugin-google-tagmanager',
+      options: {
+        id: 'GTM-KXQ29Q5',
+        enableWebVitalsTracking: true,
+        selfHostedOrigin: 'https://native.dev',
+      }
+    },
+    {
       resolve: "gatsby-plugin-manifest",
       options: {
         name: "Native",
