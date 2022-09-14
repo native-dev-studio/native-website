@@ -18,7 +18,6 @@ const config: GatsbyConfig = {
       options: {
         id: 'GTM-KXQ29Q5',
         enableWebVitalsTracking: true,
-        selfHostedOrigin: 'https://native.dev',
       }
     },
     {
