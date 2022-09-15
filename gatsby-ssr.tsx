@@ -4,7 +4,7 @@ import type { GatsbySSR } from "gatsby"
 export const onPreRenderHTML: GatsbySSR["onPreRenderHTML"] = ({ getHeadComponents, replaceHeadComponents }) => {
   const headComponents = getHeadComponents();
 
-  const tagline     = "Expert partners in Web3 product, engineering, & strategy";
+  const tagline     = "Native | Expert partners in Web3 product, engineering, & strategy";
   const description = "Native is an independent studio helping startups & businesses build their mission-critical products on Web3.";
 
   replaceHeadComponents([
