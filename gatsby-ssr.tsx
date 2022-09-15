@@ -5,7 +5,7 @@ export const onPreRenderHTML: GatsbySSR["onPreRenderHTML"] = ({ getHeadComponent
   const headComponents = getHeadComponents();
 
   const tagline     = "Native | Expert partners in Web3 product, engineering, & strategy";
-  const description = "We're an independent studio helping startups & businesses build their mission-critical products on Web3.";
+  const description = "We're an independent studio helping startups & businesses build mission-critical products on Web3.";
 
   replaceHeadComponents([
     ...headComponents,
