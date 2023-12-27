@@ -3,6 +3,7 @@ import { Link, graphql } from "gatsby"
 import type { HeadFC } from "gatsby"
 import { StaticImage } from 'gatsby-plugin-image'
 import Footer from '../components/Footer';
+import imageSrc from '../images/df-case-study-image.png';
 
 const IndexPage = () => {
   return (
@@ -31,8 +32,8 @@ const IndexPage = () => {
           '>
             <figure className='bg-black my-5'>
               <Link to='/featured'>
-                <StaticImage
-                  src='../images/df-case-study-image.png'
+                <img
+                  src={imageSrc}
                   alt='A futuristic look into tennis'
                 />
               </Link>
