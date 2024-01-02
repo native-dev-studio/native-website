@@ -41,7 +41,7 @@ const FeaturedPage = () => {
           <h3 className='font-bold mt-10'>
             For inquiries
             <a href='mailto:reef@dreamfight.io' className='font-bold block'>
-              reef@dreamfight.io
+              workwith@native.dev
             </a>
           </h3>
         </aside>
