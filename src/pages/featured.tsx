@@ -185,9 +185,6 @@ const FeaturedPage = () => {
             As an augmented reality experience, most of the game is the sport, and the Dream Fight layer can be simplified as <span className='font-bold'>"shot-calling as a game"</span> that needs only scoring, detection, and an organized set of rules as basic requirements.
           </p>
           <p>
-            Dream Fight started ambitiously as a basketball concept inspired by popular titles like NBA Jam that united sport fans and gamers alike. But because building the product fully could take years, Native explored new ways to help Sharif create a working prototype that enabled him to play live matches with test users in weeks, not years.
-          </p>
-          <p>
             However, to really surprise and delight the user, Native developed a way to also to make Dream Fight feel real to test users. To accomplish this, the team simulated the graphics overlay of the game with the creative use of OBS Studio, hotkeys, and animation triggers to deliver realistic gameplay within the <span className='font-bold'>first 30 days</span> of the project.
           </p>
         </div>
